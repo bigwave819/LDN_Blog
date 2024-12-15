@@ -1,0 +1,22 @@
+{
+    "blog": [
+        {
+            "title": "ibiri kubera lycee",
+            "body": "Abanyeshuri 166 bo mu cyiciro rusange cy’amashuri yisumbuye, nibo bitabiriye iri rushanwa ryatangiye muri Kanama 2018. Ryahereye ku rwego rw’Imirenge n’urw’Uturere riza gusorezwa ku rwego rw’Igihugu. Abanyeshuri batanu ba mbere mu Rwanda, bahembwe ku rwego rwa EAC, ndetse uwabaye uwa mbere agira n’amahirwe yo guhatana na bagenzi be bo mu bihugu bigize uyu muryango. Furaha Kezia Beiza wigaga muri FAWE Girls School, ni we wabaye uwa mbere ahagararira u Rwanda mu cyiciro cya nyuma cy’iri rushanwa cyabereye mu Mujyi wa Arusha muri Tanzania.",
+            "author": "wave",
+            "id": 1
+          },
+          {
+            "title": "uko master yavuze kuri assemble",
+            "body": "Ati “Ndabyishimiye kandi ntibivuze ko nzarekera aho ahubwo binteye imbaraga zo gutuma niha gahunda yo gushishikariza n’abandi gukora cyane kandi nanjye ubwanjye ngiye gushyira imbaraga mu myigire yanjye kugira ngo no mu yandi marushanwa nzitware neza.”",
+            "author": "mucyo",
+            "id": 2
+          },
+          {
+            "title": "recovery yadutayemo",
+            "body": "Ati “Ni ingirakamaro kuko aba agamije kugira ngo abanyeshuri bamenye umuryango w’Ibihugu by’Iburasirazuba, n’impamvu uriho yewe n’inyungu tuba tuwufitemo nk’igihugu. Ikindi ni ukugira ngo bipime ubumenyi kuko akorwa mu Cyongereza no mu Gifaransa ndetse no mu Giswahili nk’indimi zikoreshwa muri aka karere.”",
+            "author": "moses",
+            "id": 3
+          }
+    ]
+}

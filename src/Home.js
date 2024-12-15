@@ -1,32 +1,13 @@
-import React from "react";
-import { useState } from "react";
 import BlogList from "./BlogList";
+import useFetch from "./useFetch"
 
 function Home() {
-  const [blogs, setBlogs] = useState([
-    {
-      title: "ibiri kubera lycee",
-      body: "sine yakubise animateur",
-      author: "wave",
-      id: 1,
-    },
-    {
-      title: "uko master yavuze kuri assemble",
-      body: "master yavuze imitsindire ya lycce",
-      author: "mucyo",
-      id: 2,
-    },
-    {
-      title: "recovery yadutayemo",
-      body: "recovery ari kwishyuza cyane",
-      author: "moses",
-      id: 3,
-    },
-  ]);
-
+  const { data:blogs, isPending, error} = useFetch('http://localhost:8000/blog') 
   return (
     <div className="home"> 
-      <BlogList blogs={blogs} title="all blogs"/>
+    { error && <div><h4>{ error }</h4></div>}
+    {isPending && <div><h1>Loading ...</h1></div>}
+      { blogs && <BlogList blogs={blogs} title="all blogs"/> }
     </div>
   );
 }
