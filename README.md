@@ -1,3 +1,5 @@
+this site is create when i was studying reactjs i create this for my school to share some blogs within the students
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
